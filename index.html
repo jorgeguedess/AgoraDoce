@@ -1,0 +1,508 @@
+<!-- Projeto: AgoraDoce -->
+<!-- Arquivo: index.html -->
+<!-- Autor: Jorge Guedes -->
+<!-- Criação: 25/09/2021 -->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="assets/fonts/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>AgoraDoce - Confeitaria Rj, bolos e variedades</title>
+</head>
+<body>
+
+    <header class="bg-menu">
+
+        <div class="menu">
+            <div class="menu-logo">
+                <a href="index.html" class="logo">agora<span>doce</span></a>
+            </div>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="produtos1.html">Produtos</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="workflow">              
+                <div class="work" id="search-btn">
+                    <i class="icon-search"></i>
+            </div>
+            <form class="search-form">
+                <input type="text" placeholder="Pesquisar">
+                <i class="icon-search"></i>
+             </form>
+
+            
+            <div class="work" id="profile-btn">
+                    <i class="icon-user"></i>
+            </div>
+            <div class="user-profile">
+                <a href="cadastro.html">Registrar</a>
+                <a href="cadastro.html">Logar</a>
+            </div>
+
+
+            <div class="work black" id="cart-btn">
+                <i class="icon-handbag"></i>
+                <div class="bg-itens">
+                    <span class="qtd-itens">0</span>
+                </div>
+            </div>
+
+            <div class="cart-shop cart-center">
+
+                <span class="vazio">Seu carrinho de compras está vazio!</span>
+
+                <div class="produto-final">
+
+                    <div class="cart-produto-total">
+                        <div class="cart"></div>    
+                    </div>
+                    <div class="cart-produto">
+                        <div class="produto-p">
+                            <img src=""/>
+                        </div>
+    
+                        <div class="info-produto-cart">
+                            <p class="produto-name-cart">--</p>
+                            <p class="produto-price-cart">--</p>
+
+                             <div class="btn-qtd-cart">
+                                <button class="qtmenos-cart">-</button>
+                                <div class="qt-cart">1</div>
+                                <button class="qtmais-cart">+</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-final">
+                        <ul>
+                            <li>Subtotal</li>
+                            <li>Desconto</li>
+                            <li>Total</li>
+                            <li class="subtotal">--</li>
+                            <li class="desconto">--</li>
+                            <li class="total">--</li>
+                        </ul>
+                    </div>
+
+                    <div class="btn" id="#view-car"><a href="carrinho.html">Ver Carrinho</a></div>
+                    <div class="btn" id="#finality-car"><a href="finalizar.html">Finalizar Compra</a></div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </header>
+
+    <main class="container">
+
+        <section class="menu-principal">
+
+            <div class="menu-principal-mobile">
+                <h2>Categorias</h2>
+                <div class="menu-mobile">
+                    <i class="icon-menu"></i>
+                </div>
+            </div>
+
+			<div class="myslide">
+                <div class="texto-principal">
+                    <h2>bolos feitos com amor</h2>
+                    <h1>melhor qualidade em bolo</h1>
+                </div>
+                <div class="img-principal" style="background: url(assets/image/img-principal-1.jpg) no-repeat center">
+                </div>
+             </div>
+
+
+            <div class="myslide">
+                <div class="texto-principal">
+                    <h2>bolos feitos com amor</h2>
+                    <h1>melhor qualidade em bolo</h1>
+                </div>
+                <div class="img-principal" style="background: url(assets/image/img-principal-2.jpg) no-repeat center">
+                </div>
+            </div>
+
+            <div class="myslide">
+                <div class="texto-principal">
+                    <h2>bolos feitos com amor</h2>
+                    <h1>melhor qualidade em bolo</h1>
+                </div>
+                <div class="img-principal" style="background: url(assets/image/img-principal-3.jpg) no-repeat center">
+                </div>
+            </div>
+	
+		<a href="produtos1.html" class="btn">Compre Agora</a>
+                <div class="control" id="control">
+                    <span class="square" onclick="currentSlide(1)"></span>
+                    <span class="square" onclick="currentSlide(2)"></span>
+                    <span class="square" onclick="currentSlide(3)"></span>
+                </div>
+                <div class="arrow">
+                    <div id="left" onclick="plusSlides(-1)">
+                        <i class="icon-arrow-left"></i>
+                    </div>
+                    <div id="next" onclick="plusSlides(1)">
+                        <i class="icon-arrow-right"></i>
+                    </div>
+                </div>
+
+        </section>
+    
+        <section class="welcome">
+            <h2>Bem-vindo à loja AgoraDoce</h2>
+            <p>
+                Somos uma loja especializada em bolos decorados, bolos caseiros e diversos tipos de doces, 
+                preservando sempre a qualidade e acima de tudo muito amor e dedicação.
+            </p>
+            <article class="variedades">
+    
+                <div class="variedade">
+                    <i class="icon-big-cake"></i>
+                    <div class="variedade-txt"><h3>Bolos</h3></div>
+                </div>
+    
+                <div class="variedade">
+                    <i class="icon-chocolate"></i>
+                    <div class="variedade-txt"><h3>Chocolate</h3></div>
+                </div>
+    
+                <div class="variedade">
+                    <i class="icon-cupcake"></i>
+                    <div class="variedade-txt"><h3>Cupcake</h3></div>
+                </div>
+    
+                <div class="variedade">
+                    <i class="icon-donuts"></i>
+                    <div class="variedade-txt"><h3>Donuts</h3></div>
+                </div>
+            </article>
+    
+        </section>
+    
+        <section class="produtos">
+            <h2>Top Bolos</h2>
+            <p>
+                Conheça os mais novos produtos e nossos queridinhos da lista
+            </p>
+            <div class="botao-produtos">
+                <a href="#novos" class="btn-produtos active">Novos</a>
+                <a href="#favoritos" class="btn-produtos">Mais Escolhidos</a>
+            </div>
+    
+            <div class="slide-produtos">
+                <div class="arrow-produto" id="slide-left">
+                    <i class="arrow icon-arrow-left"></i>
+                </div>
+    
+                <div class="cont-produtos cards" id="slider">
+                
+                    <div class="card-thumb thumbnail">
+    
+                        <div class="card">
+                            <div class="produto-img"><img src="" /></div>
+                            <div class="classificacao">
+                                <i class="icon-star qualidade"></i><i class="icon-star qualidade"></i><i class="icon-star qualidade"></i><i class="icon-star qualidade"></i><i class="icon-star"></i>
+                            </div>
+                            <div class="info-produto">
+                                <div class="produto-name">--</div>
+                                <div class="produto-price">R$--</div>
+                                <a href="" class="btn">Comprar</a> 
+                            </div>
+                        </div>  
+    
+                    </div>
+    
+                </div>
+    
+                <div class="arrow-produto" id="slide-right">
+                    <i class="arrow icon-arrow-right"></i>
+                </div>
+            </div>
+                    
+                <!-- INICIA MODAL -->
+
+                <div class="modal">
+
+                    <div class="cart-modal">
+
+                        <div class="info-produto-open">
+                            <div class="produto-img-open"><img src="" /></div>
+    
+                            <div class="produto-name-open">--</div>
+                            <div class="produto-price-open">R$--</div>
+                            <div class="produto-desc-open">--</div>
+                        </div>
+    
+                        <div class="info-pedido-open">
+                            <div onclick="closeModal()" class="info-pedido-close">X</div>
+                            <h3>Pedidos especiais?</h3>
+                            <span class="testespecial">+</span> <span>Adicione aqui. Faremos nosso melhor para atendê-lo(a).</span>
+    
+                            <textarea placeholder="Quais são os seus pedidos?"></textarea>
+                            <div class="txt-pequeno"><p>* Custos adicionais podem ser adicionados</p></div>
+    
+                            <div class="quantidade">
+                                <h4>Quantidade</h4>
+                                <div class="btn-qtd">
+                                    <button class="produtoInfo-qtmenos">-</button>
+                                    <div class="produto-qt">1</div>
+                                    <button class="produtoInfo-qtmais">+</button>
+                                </div>
+                            </div>
+    
+                            <button class="btn produtoInfo-addButton">+ adicionar ao meu carrinho</button>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="produto-msg">produto adicionado com sucesso!</div>
+
+                
+            <!-- TERMINA MODAL -->
+    
+        </section>
+    
+        <section class="galeria">
+    
+            <div class="galeria-1 donuts">
+                <div class="center">
+                    <h2>Donuts Feitos na hora</h2>
+                    <p>Experimente esta doçura</p>
+                    <a href="galeria.html" class="btn">Veja mais</a>    
+                </div>
+            </div>
+    
+            <div class="column">
+                <div class="galeria-2 cookie">
+                    <div class="center">
+                        <h2>Cookies Deliciosos</h2>
+                        <p>Saboroso e crocante</p>
+                        <a href="galeria.html" class="btn">Veja mais</a>    
+                    </div>
+                </div>
+        
+                <div class="galeria-2 cupcake">
+                    <div class="center">
+                        <h2>Cupcakes Variados</h2>
+                        <p>Diversas escolhas de sabores</p>
+                        <a href="galeria.html" class="btn">Veja mais</a>    
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    
+        <section class="vantagens">
+    
+            <h2>Nossas Vantagens</h2>
+    
+            <div class="vantagem">
+                <div class="center">
+                    <i class="icon-truck"></i>
+                    <h3>Frete grátis mundial</h3>
+                    <p>
+                        Deixe que levamos seu produto aonde 
+                        você estiver
+                    </p>    
+                </div>
+            </div>
+    
+            <div class="vantagem">
+                <div class="center">
+                    <i class="icon-money"></i>
+                    <h3>Melhor Custo-Benefício</h3>
+                    <p>
+                        Produtos com qualidade e com um preço
+                        especial                
+                    </p>    
+                </div>
+            </div>
+    
+            <div class="vantagem">
+                <div class="center">
+                    <i class="icon-cake"></i>
+                    <h3>Bolo 100% personalizável</h3>
+                    <p>
+                        Monte seu bolo do jeito que  preferir
+                        e deixe-o como sempre sonhou                
+                    </p>    
+                </div>
+            </div>
+    
+        </section>
+    
+        <section class="comentarios">
+    
+            <div class="grupo-comentario">
+                <h2>O que os clientes dizem</h2>
+                <p>Comentários e opiniões de nossos clientes</p>
+    
+                <div class="redes-sociais">
+                    <div class="redes facebook">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="icon-face"></i>
+                        </a>
+                    </div>
+    
+                    <div class="redes twitter">
+                        <a href="https://www.twitter.com/" target="_blank">
+                            <i class="icon-twitter"></i>
+                        </a>
+                    </div>
+    
+                    <div class="redes github">
+                        <a href="https://github.com/Jorge-Guedes" target="_blank">
+                            <i class="icon-github"></i>
+                        </a>
+                    </div>
+    
+    
+                    <div class="redes youtube">
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <i class="icon-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+    
+            </div>
+
+            <div class="avaliacao">
+
+                <div class="myslideCliente">
+
+                    <div class="img-cliente">
+                        <img src="assets/image/cliente-1.jpg" alt="Cliente 1">
+                    </div>
+
+                    <div class="txt">
+                        <p>
+                            Tudo muito delicioso..  varias variedade...um  doce melhor que outro recomendo a todos!!!
+                        </p>
+                        <h3>Samara Teixeira</h3>
+                        <p>Cliente</p>
+                    </div>
+                </div>
+
+                <div class="myslideCliente">
+
+                    <div class="img-cliente">
+                        <img src="assets/image/cliente-2.jpg" alt="Cliente 2">
+                    </div>
+
+                    <div class="txt">
+                        <p>
+                            Guloseimas e gordices a parte, essa doceria tem umas receitas bem preparadas e diferenciadas.
+                        </p>
+                        <h3>Bernardo Silva</h3>
+                        <p>Cliente</p>
+                    </div>
+                </div>
+
+                <div class="myslideCliente">
+
+                    <div class="img-cliente">
+                        <img src="assets/image/cliente-3.jpg" alt="Cliente 3">
+                    </div>
+
+                    <div class="txt">
+                        <p>
+                            AMEIII! Já quero pro meu casamento 😍😍😍
+                      
+                        </p>
+                        <h3>Andressa Marques</h3>
+                        <p>Cliente</p>
+                    </div>
+                </div>
+
+
+
+                <div class="bar-comentario">    
+                    <span class="square" onclick="currentSlide(1)"></span>
+                    <span class="square" onclick="currentSlide(2)"></span>
+                    <span class="square" onclick="currentSlide(3)"></span>
+                </div>
+
+            </div>
+
+        </section>
+    
+        <section class="contato">
+    
+            <div class="img-contato">
+                <picture>
+                    <source media="(max-width: 670px)" srcset="assets/image/image-contato-mobile.jpg">
+                    <img src="assets/image/image-contato.jpg" alt="Imagem de uma confeiteira decorando doces">
+                </picture>
+            </div>
+            <div class="form">
+                <h2>Fale Conosco</h2>
+                <form action="https://api.staticforms.xyz/submit" method="POST">
+                    <input type="hidden" name="accessKey" value="58cf58c0-b67d-4584-a8ec-e306add1da1e"> 
+                    <input type="hidden" name="redirectTo" value="https://jorge-guedes.github.io/AgoraDoce/index.html">
+    
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="tel" name="phone" placeholder="(21) 99999-9999" required>
+                    <textarea name="message" id="msg" rows="8" placeholder="Mensagem" required></textarea>
+                    <button class="btn btn-contato">Enviar</button>
+                </form>
+            </div>
+    
+            <div class="dados">
+    
+                <div class="dados-1">
+                    <i class="icon-phone"></i>
+                    <p>(21) 99999-9999</p>    
+                </div>
+    
+                <div class="dados-1">
+                    <i class="icon-adress"></i>
+                    <p>R. Peixaria Valente, 346</p>    
+                </div>
+    
+                <div class="dados-1">
+                    <i class="icon-mail"></i>
+                    <p>agoradoceofc@hotmail.com</p>    
+                </div>
+    
+            </div>
+
+        </section>
+    
+    </main>
+
+    <div onclick="subirTela()" class="scrollButton"><i class="icon-arrow-up"></i></div>
+
+
+    <footer class="footer">
+        Copyright © 2021 - Jorge Guedes
+    </footer>
+
+
+    <script src="js/produtos.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/slide.js"></script>
+
+</body>
+</html>

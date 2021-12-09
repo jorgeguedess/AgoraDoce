@@ -1,0 +1,44 @@
+/* Projeto: AgoraDoce */
+/* Arquivo: contato.css */
+/* Autor: Jorge Guedes */
+/* Criação: 25/09/2021 */
+
+
+/* MENU PRINCIPAL */
+
+
+
+.img-principal {
+    height: 150px;
+    background-image: url(../assets/image/img-principal-contato.jpg);
+}
+
+
+
+.texto-principal h1,
+.texto-principal h2 {
+    padding: 5px 0 10px 0;
+}
+
+.map {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.map iframe{
+    width: 100%;
+    margin: 40px 0 60px 0;
+}
+
+
+
+@media (max-width: 450px) {
+    .texto-principal h1 {
+        font-size: 32px;
+    }
+
+    .texto-principal h2 {
+        font-size: 16px;
+    }
+
+}

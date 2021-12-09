@@ -1,0 +1,427 @@
+/* Projeto: AgoraDoce */
+/* Arquivo: responsive.css */
+/* Autor: Jorge Guedes */
+/* Criação: 25/09/2021 */
+
+
+/* RESPONSIVO CSS */
+
+@media (max-width: 1168px) {
+    .menu-nav {
+        display: block;
+        margin: 0 auto;
+        max-width: 92%;
+        border-top: 2px solid var(--light-gray);
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .menu-principal {
+        margin-top: 5rem;
+    }  
+    
+
+    /* CONTATO */
+
+
+    .contato {
+        display: block;
+        text-align: center;
+
+    }
+
+    .img-contato {
+        margin: 20px 0 30px 0;
+    }
+
+
+    .dados {
+        text-align: center;
+        margin: 10px 0 60px 0;
+    }
+
+
+    .dados-1 {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+
+    .dados i,
+    .dados p {
+        margin: 10px 0;
+    }
+
+    .galeria-1,
+    .galeria-2 {
+    margin: 20px auto;
+}
+
+.menu-cadastro {
+    margin-top: 50px;
+}
+
+}
+
+
+@media (max-width: 920px) {
+
+    .cart-modal {
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        overflow-y: auto;
+
+    }
+
+    .info-pedido-close {
+        right: 10px;
+        top: 20px;
+        width: 40px;
+    }
+
+    .produto-img-open {
+        width: 100%;
+    }
+
+    .info-pedido-open textarea {
+        display: block;
+    }
+
+    .quantidade {
+        margin: 30px 0;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 840px) {
+     
+    .texto-principal h1 {
+        font-size: 36px;
+    }
+    
+    .img-principal a.btn {
+        padding: 0.6rem 1.2rem;
+    }
+
+    .arrow #next,
+    .arrow #left {
+        width: 40px;
+        height: 70px;
+
+        top: 40%;
+        transform: translateY(-40%);
+
+    }
+
+    .redes {
+        margin: 10px 5px;
+    }
+
+    .arrow i {
+        line-height: 70px;
+        font-size: 28px;
+    }    
+
+
+
+    .search-form,
+    .user-profile,
+    .cart-shop {
+        top: -600px;
+    }
+
+    .menu-principal .btn,
+    .menu-principal .control{
+    position: relative;
+    top: -160px;
+    }
+
+
+} 
+
+
+/* SMARTPHONE */
+
+@media (max-width: 660px) {
+
+
+    .texto-principal h1 {
+        font-size: 32px;
+    }
+
+
+    .menu-logo {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .menu {
+        padding: 0;
+        text-align: center;
+    }
+    
+
+    .menu-nav {
+        display: none;
+    } 
+
+    .workflow {
+        position: absolute;
+        top: 120px;
+        /* left: 50%; */
+        /* transform: translateX(-50%); */
+        right: 12%;
+    }
+
+
+    .menu-mobile {
+        display: flex;
+        margin-right: 20px;
+        position: absolute;
+        top: 220px;
+        right: 0px;
+        cursor: pointer;
+        width: auto;
+    } 
+
+    .menu-mobile i {
+        font-size: 24px;
+        color: var(--white);
+    }
+
+    .menu-principal-mobile {
+        display: block;
+        background: var(--pink);
+        height: 60px;
+    }
+    
+    .menu-principal-mobile h2 {
+        line-height: 60px;
+        margin-left: 20px;
+        font-size: 18px;
+        color: var(--white);
+    }
+
+    .welcome {
+        margin: 0;
+    }
+    
+    
+    .welcome h2 {
+        font-size: 1.8rem;
+    }
+    
+
+    .welcome p {
+        font-size: 1rem;
+        max-width: 380px;
+        margin: 20px auto;
+    }
+
+    /* COMENTARIOS */
+
+    .comentarios {
+        margin: 20px 0 40px 0;
+        height: auto;
+        display: block;
+        padding: 40px 0 60px 0;
+    }
+    
+    .grupo-comentario {
+        margin: 0;
+        text-align: center;
+    }
+    
+    .grupo-comentario h2 {
+        font-size: 26px;
+    }
+    
+    
+    .avaliacao {
+        margin: 60px 0 0 0;
+        background: var(--white);
+        padding: 10px 0;
+    }
+        
+    
+    .bar-comentario span {
+        background: var(--white-black);
+    }  
+    
+    /* GALERIA */
+
+
+    .galeria-1,
+    .galeria-2 {
+        display: block;
+        width: 100%;
+    }
+
+    .galeria p {
+        margin: 0px 0 20px 0;
+    }
+
+    .galeria h2 {
+        font-size: 32px;
+    }
+
+
+    .column {
+        flex-direction: row;
+    }
+    
+
+    .arrow {
+        display: none;
+    }
+
+    .search-form,
+    .cart-shop {
+        right: -60%; 
+    } 
+
+    .search-form.active,
+    .user-profile.active,
+    .cart-shop.active {
+        top: 150px;
+    } 
+
+
+    .menu-nav.openNav {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-nav {
+        position: absolute;
+        top: 260px;
+        width: 100vw;
+        border-top: none;
+        text-align: center;
+        background: white;
+        padding: 10px 0;
+    }
+
+    .menu-nav ul li {
+        display: block;
+        padding: 20px 0;
+        border-bottom: 1px solid rgba(0,0,0,.1);
+    }
+}
+
+
+
+@media (max-width: 500px) {
+
+    .texto-principal {
+        padding: 10% 0 5% 0;
+    }
+    .texto-principal h2 {
+        font-size: 18px;
+    }
+    
+    .texto-principal h1 {
+        font-size: 28px;
+    }
+    
+    .variedades {
+        display: block;
+    }
+    
+    .variedade {
+        display: block;
+    }
+
+    .welcome p {
+        font-size: 14px;
+    }
+
+    .form input,
+    .form textarea {
+        width: 95%;
+    } 
+
+    .vantagem {
+        width: 90%;
+    }
+    
+    .galeria p {
+        font-size: 16px;
+    }
+
+
+    .galeria h2 {
+        font-size: 24px;
+    }
+
+    .galeria-1,
+    .galeria-2 {
+        text-align: center;
+        height: 180px;
+    }
+
+    .galeria .btn {
+        padding: 10px 20px;
+    }
+
+    .cart-shop{
+        width: calc(100% + 200px);
+        font-size: 80%;
+        margin: 0 auto;
+
+        left: -100px;
+        height: auto;
+
+    }
+
+    .search-form{
+        width: calc(100% + 125px);
+    }
+
+    .produto-final .btn {
+        padding: 0.1rem 0.4rem;
+    }
+
+    .info-pedido-open button {
+        font-size: 0.9em;
+    }
+
+    .avaliacao p:nth-child(1) {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .arrow-produto {
+        display: none;
+    }
+
+}  
+
+@media (max-width: 350px) {
+
+.workflow {
+    right: 6%;
+}
+
+.search-form,
+.cart-shop {
+    right: -60px; 
+} 
+
+.cart-shop{
+    width: calc(100% + 80px);
+}
+
+.produto-msg {
+
+    font-size: 14px;
+    width: 100vw;
+}
+
+}

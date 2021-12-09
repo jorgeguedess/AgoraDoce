@@ -1,0 +1,193 @@
+<!-- Projeto: AgoraDoce -->
+<!-- Arquivo: contato.html -->
+<!-- Autor: Jorge Guedes -->
+<!-- Criação: 25/09/2021 -->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="assets/fonts/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/contato.css">
+
+    <title>Contato</title>
+</head>
+<body>
+
+    <header class="bg-menu">
+
+        <div class="menu">
+            <div class="menu-logo">
+                <a href="index.html" class="logo">agora<span>doce</span></a>
+            </div>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos1.html">Produtos</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="#" class="active">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="workflow">              
+                <div class="work" id="search-btn">
+                    <i class="icon-search"></i>
+            </div>
+            <form class="search-form">
+                <input type="text" placeholder="Pesquisar">
+                <i class="icon-search"></i>
+             </form>
+
+            
+            <div class="work" id="profile-btn">
+                    <i class="icon-user"></i>
+            </div>
+            <div class="user-profile">
+                <a href="cadastro.html">Registrar</a>
+                <a href="cadastro.html">Logar</a>
+            </div>
+
+
+            <div class="work black" id="cart-btn">
+                <i class="icon-handbag"></i>
+                <div class="bg-itens">
+                    <span class="qtd-itens">0</span>
+                </div>
+            </div>
+
+            <div class="cart-shop cart-center">
+
+                <span class="vazio">Seu carrinho de compras está vazio!</span>
+
+                <div class="produto-final">
+
+                    <div class="cart-produto-total">
+                        <div class="cart"></div>
+
+                        <div class="cart-produto">
+                            <div class="produto-p">
+                                <img src=""/>
+                            </div>
+        
+                            <div class="info-produto-cart">
+                                <p class="produto-name-cart">--</p>
+                                <p class="produto-price-cart">--</p>
+
+                                 <div class="btn-qtd-cart">
+                                    <button class="qtmenos-cart">-</button>
+                                    <div class="qt-cart">1</div>
+                                    <button class="qtmais-cart">+</button>
+                                </div>
+
+                            </div>
+    
+                        </div>
+    
+                    </div>
+
+                    <div class="info-final">
+                        <ul>
+                            <li>Subtotal</li>
+                            <li>Desconto</li>
+                            <li>Total</li>
+                            <li class="subtotal">--</li>
+                            <li class="desconto">--</li>
+                            <li class="total">--</li>
+                        </ul>
+                    </div>
+
+                    <div class="btn" id="#view-car"><a href="carrinho.html">Ver Carrinho</a></div>
+                    <div class="btn" id="#finality-car"><a href="finalizar.html">Finalizar Compra</a></div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </header>
+
+    <main>
+
+        <section class="menu-principal">
+            <div class="menu-principal-mobile">
+                <h2>Contato</h2>
+                <div class="menu-mobile">
+                    <i class="icon-menu"></i>
+                </div>
+            </div>
+    
+            <div class="img-principal">
+                <div class="texto-principal">
+                    <h1>Contato</h1>
+                    <h2>Tire todas as suas dúvidas com a gente</h2>
+                </div>
+                </div>
+        </section>
+    
+        <section class="contato">
+            <div class="img-contato">
+                <picture>
+                    <source media="(max-width: 670px)" srcset="assets/image/image-contato-mobile.jpg">
+                    <img src="assets/image/image-contato.jpg" alt="Imagem de uma confeiteira decorando doces">
+                </picture>
+            </div>
+            <div class="form container">
+                <h2>Fale Conosco</h2>
+                <form action="https://api.staticforms.xyz/submit" method="POST">
+                    <input type="hidden" name="accessKey" value="58cf58c0-b67d-4584-a8ec-e306add1da1e"> 
+                    <input type="hidden" name="redirectTo" value="https://jorge-guedes.github.io/AgoraDoce/index.html">
+    
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="tel" name="phone" placeholder="(21) 99999-9999" required>
+                    <textarea name="message" id="msg" rows="8" placeholder="Mensagem" required></textarea>
+                    <button class="btn btn-contato">Enviar</button>
+                </form>
+            </div>
+    
+            <div class="dados">
+    
+                <div class="dados-1">
+                    <i class="icon-phone"></i>
+                    <p>(21) 99999-9999</p>    
+                </div>
+    
+                <div class="dados-1">
+                    <i class="icon-adress"></i>
+                    <p>R. Peixaria Valente, 346</p>    
+                </div>
+    
+                <div class="dados-1">
+                    <i class="icon-mail"></i>
+                    <p>agoradoceofc@hotmail.com</p>    
+                </div>
+            </div>
+        </section>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7347.373435950553!2d-43.18464070558546!3d-22.961762010782657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997ffde1757d83%3A0xc3802d44c1e68e8b!2sParque%20Estadual%20da%20Chacrinha!5e0!3m2!1spt-BR!2sbr!4v1639074182998!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    
+        </div>
+
+    </main>
+
+    <div onclick="subirTela()" class="scrollButton"><i class="icon-arrow-up"></i></div>
+
+    <footer class="footer">
+        Copyright © 2021 - Jorge Guedes
+    </footer>
+
+    <script src="js/script.js"></script>
+
+
+
+</body>
+</html>

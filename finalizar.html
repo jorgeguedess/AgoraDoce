@@ -1,0 +1,315 @@
+<!-- Projeto: AgoraDoce -->
+<!-- Arquivo: finalizar.html -->
+<!-- Autor: Jorge Guedes -->
+<!-- Criação: 25/09/2021 -->
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="assets/fonts/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/finalizar.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+
+    <title>Finalizar Compra</title>
+</head>
+<body>
+
+    <header class="bg-menu">
+
+        <div class="menu">
+            <div class="menu-logo">
+                <a href="index.html" class="logo">agora<span>doce</span></a>
+            </div>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos1.html">Produtos</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="workflow">              
+                <div class="work" id="search-btn">
+                    <i class="icon-search"></i>
+            </div>
+            <form class="search-form">
+                <input type="text" placeholder="Pesquisar">
+                <i class="icon-search"></i>
+             </form>
+
+            
+            <div class="work" id="profile-btn">
+                    <i class="icon-user"></i>
+            </div>
+            <div class="user-profile">
+                <a href="cadastro.html">Registrar</a>
+                <a href="cadastro.html">Logar</a>
+            </div>
+
+
+            <div class="work black" id="cart-btn">
+                <i class="icon-handbag"></i>
+                <div class="bg-itens">
+                    <span class="qtd-itens">0</span>
+                </div>
+            </div>
+
+            <div class="cart-shop cart-center">
+
+                <span class="vazio">Seu carrinho de compras está vazio!</span>
+
+                <div class="produto-final">
+
+                    <div class="cart-produto-total">
+                        <div class="cart"></div>
+
+                        <div class="cart-produto">
+                            <div class="produto-p">
+                                <img src=""/>
+                            </div>
+        
+                            <div class="info-produto-cart">
+                                <p class="produto-name-cart">--</p>
+                                <p class="produto-price-cart">--</p>
+
+                                 <div class="btn-qtd-cart">
+                                    <button class="qtmenos-cart">-</button>
+                                    <div class="qt-cart">1</div>
+                                    <button class="qtmais-cart">+</button>
+                                </div>
+
+                            </div>
+    
+                        </div>
+    
+                    </div>
+
+                    <div class="info-final">
+                        <ul>
+                            <li>Subtotal</li>
+                            <li>Desconto</li>
+                            <li>Total</li>
+                            <li class="subtotal">--</li>
+                            <li class="desconto">--</li>
+                            <li class="total">--</li>
+                        </ul>
+                    </div>
+
+                    <div class="btn" id="#view-car"><a href="carrinho.html">Ver Carrinho</a></div>
+                    <div class="btn" id="#finality-car"><a href="finalizar.html">Finalizar Compra</a></div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </header>
+
+    <main>
+
+        <div class="menu-button">
+            <a href="index.html"><i class="icon-home"></i></a>
+            <span>/</span>
+            <span>Finalizar Compra</span>
+        </div>
+
+
+        <section class="menu-compra">
+
+            <form action="#" method="POST" class="form-global">
+
+                <div class="faturamento">
+
+                    <h3>Detalhes de faturamento</h3>
+
+
+                    <div class="form-p">
+
+                        <div class="nome">
+                            <label>Nome</label>
+                            <input type="text" name="name" id="name" required>    
+                        </div>
+    
+                        <div class="sobrenome">
+                            <label>Sobrenome</label>
+                            <input type="text" name="sobrenome" id="sobrenome" required>    
+                        </div>
+        
+                    </div>
+
+                    <div class="cep">
+                        <label>CEP</label>
+                        <input type="number" id="cep" required>    
+                    </div>
+
+                    <div class="endereco">
+                        <label>Endereço</label>
+                        <input type="text" id="endereco" required>    
+                    </div>
+
+                    <div class="estado">
+                        <label>Estado</label>
+
+                        <select name="estado" id="estado" required>
+                            <option disabled value="">Selecione</option>                            
+                            <option value="estado1" >Acre</option>
+                            <option value="estado2" >Amazonas</option>
+                            <option value="estado3" >Bahia</option>
+                            <option value="estado4" >Ceará</option>
+                            <option value="estado5" >Distrito Federal</option>
+                            <option value="estado6" >Espírito Santo</option>
+                            <option value="estado7" >Goiás</option>
+                            <option value="estado8" >Minas Gerais</option>
+                            <option value="estado9" >Paraíba</option>
+                            <option value="estado10" selected>Rio de Janeiro</option>
+                            <option value="estado11">Rio Grande do Sul</option>
+                            <option value="estado12">Santa Catarina</option>
+                            <option value="estado13">São Paulo</option>
+                            <option value="estado14">Tocantins</option>
+
+                        </select>    
+                    </div>
+
+                    <div class="celular">
+                        <label>Celular</label>
+                        <input type="number" id="cell" required>
+                    </div>
+
+
+                    <div class="img-finalizar">
+                        <img src="assets/image/birthday-cake.svg" alt="Garota feliz comemorando seu aniversário" style="width: 80%;">
+                    </div>
+
+                </div>
+
+                <div class="pedido">
+
+                    <h3>Seu pedido</h3>
+
+                    <div class="pedido">
+
+                        <div class="resumo-pedido">
+    
+                            <table class="pedido-table">
+         
+                                <thead>
+                                    <tr class="titulo">
+                                        <th>Produto</th>
+                                        <th>Subtotal</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr class="nome-produto">
+                                        <td>Bolo de Chocolate</td>
+                                        <td>R$179,99</td>
+                                    </tr>
+    
+                                    <tr class="frete">
+                                        <td>Frete</td>
+                                        <td>R$20,00</td>
+                                    </tr>
+    
+                                    <tr class="total">
+                                        <td>Total</td>
+                                        <td>R$199,99</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>                            
+                  
+                        </div>
+
+                        <div class="form-pagamento">
+
+                            <div class="tipo-pagamento">
+
+                                <label>
+                                    <input type="radio" name="pagamento" value="cartao" checked> Cartão de Crédito
+                                    
+                                </label>
+    
+                                <br>
+    
+                                <label>
+                                    <input type="radio" name="pagamento" value="dinheiro"> Dinheiro
+                                </label>
+    
+                            </div>
+
+                            <div class="pagamento-cartao">
+
+                                <div class="numero">
+                                    <label>Número do cartão</label>
+                                    <input type="number" name="num-cartao" id="num-cartao" placeholder="●●●● ●●●● ●●●● ●●●●" required
+                                    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "16"
+                                    />
+                                        
+                                </div>
+
+                                <div class="nome-cartao">
+                                    <label>Nome impresso do cartão</label>
+                                    <input type="text" name="name-cartao" maxlength="30" required>
+                                </div>
+
+
+                                <div class="form-p">
+
+                                    <div class="validade">
+                                        <label>Validade do cartão</label>
+                                        <input type="number" name="validade" placeholder="MM / AAAA" required
+                                        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "6"
+                                         />
+                                    </div>
+    
+                                    <div class="codigo">
+                                        <label>Código de segurança</label>
+                                        <input type="number" name="codigo" placeholder="CVC" required
+                                        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "4"
+                                        />
+                                    </div>
+                                </div>
+
+                                <button class="btn">Efetuar Compra</button>
+
+
+                            </div>
+    
+                        </div>
+
+                    </div>
+                </div>
+
+            </form>
+
+
+
+    
+        </section>
+
+    </main>
+    
+    <div onclick="subirTela()" class="scrollButton"><i class="icon-arrow-up"></i></div>
+
+    <footer class="footer">
+        Copyright © 2021 - Jorge Guedes
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

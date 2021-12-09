@@ -1,0 +1,300 @@
+<!-- Projeto: AgoraDoce -->
+<!-- Arquivo: produtos1.html -->
+<!-- Autor: Jorge Guedes -->
+<!-- Criação: 25/09/2021 -->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="assets/fonts/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <title>Produtos</title>
+</head>
+<body>
+    <header class="bg-menu">
+
+        <div class="menu">
+            <div class="menu-logo">
+                <a href="index.html" class="logo">agora<span>doce</span></a>
+            </div>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" class="active">Produtos</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="workflow">              
+                <div class="work" id="search-btn">
+                    <i class="icon-search"></i>
+            </div>
+            <form class="search-form">
+                <input type="text" placeholder="Pesquisar">
+                <i class="icon-search"></i>
+             </form>
+
+            
+            <div class="work" id="profile-btn">
+                    <i class="icon-user"></i>
+            </div>
+            <div class="user-profile">
+                <a href="cadastro.html">Registrar</a>
+                <a href="cadastro.html">Logar</a>
+            </div>
+
+
+            <div class="work black" id="cart-btn">
+                <i class="icon-handbag"></i>
+                <div class="bg-itens">
+                    <span class="qtd-itens">0</span>
+                </div>
+            </div>
+
+            <div class="cart-shop cart-center">
+
+                <span class="vazio">Seu carrinho de compras está vazio!</span>
+
+                <div class="produto-final">
+
+                    <div class="cart-produto-total">
+                        <div class="cart"></div>    
+                    </div>
+                    <div class="cart-produto">
+                        <div class="produto-p">
+                            <img src=""/>
+                        </div>
+    
+                        <div class="info-produto-cart">
+                            <p class="produto-name-cart">--</p>
+                            <p class="produto-price-cart">--</p>
+
+                             <div class="btn-qtd-cart">
+                                <button class="qtmenos-cart">-</button>
+                                <div class="qt-cart">1</div>
+                                <button class="qtmais-cart">+</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-final">
+                        <ul>
+                            <li>Subtotal</li>
+                            <li>Desconto</li>
+                            <li>Total</li>
+                            <li class="subtotal">--</li>
+                            <li class="desconto">--</li>
+                            <li class="total">--</li>
+                        </ul>
+                    </div>
+
+                    <div class="btn" id="#view-car"><a href="carrinho.html">Ver Carrinho</a></div>
+                    <div class="btn" id="#finality-car"><a href="finalizar.html">Finalizar Compra</a></div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </header>
+
+    <main>
+
+        <section class="menu-principal">
+            <div class="menu-principal-mobile">
+                <h2>Produtos</h2>
+                <div class="menu-mobile">
+                    <i class="icon-menu"></i>
+                </div>
+            </div>
+    
+            <div class="img-principal">
+                <div class="texto-principal">
+                    <h1>Produtos</h1>
+                    <h2>Conheça todos os nossos produtos </h2>
+                </div>
+                </div>
+        </section> 
+    
+        <section class="menu-produtos">
+    
+            <article class="bloco-opcoes">
+    
+                <div class="categorias">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li><a href="#bolos">Bolos</a></li>
+                        <li><a href="#cupcake">Cupcake</a></li>
+                        <li><a href="#donuts">Donuts</a></li>
+                        <li><a href="#cookies">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="pesquisa">
+                    <h3>Faça a sua Pesquisa</h3>
+        
+                    <form class="form-produtos" method="get">
+    
+                        <div class="sabor-options">
+                            <h4>Sabor</h4>
+                             <input type="checkbox" name="chocolate"> <span>Chocolate</span> <br>
+                             <input type="checkbox" name="morango"> <span>Morango</span> <br>
+                             <input type="checkbox" name="frutas"> <span>Frutas</span> <br>
+                             <input type="checkbox" name="personalizados"> <span>Personalizados</span>
+                         </div>
+            
+                         <div class="preco-options">
+                            <h4>Preço</h4>
+                             <input type="checkbox" name="preco-inicial"> <span>R$8 - R$40</span> <br>
+                             <input type="checkbox" name="preco-medio"> <span>R$100 - R$150</span>  <br>
+                             <input type="checkbox" name="preco-superior"> <span>R$200 - R$300</span> 
+                         </div>
+            
+                         <div class="tamanho-options">
+                            <h4>Tamanho</h4>
+                             <input type="checkbox" name="p"> <span>P</span> <br>
+                             <input type="checkbox" name="m"> <span>M</span> <br>
+                             <input type="checkbox" name="g"> <span>G</span>
+                         </div>
+            
+                         <input class="resetar" type="reset" value="Redefinir pesquisa">
+                    </form>
+                </div>
+        
+                <div class="secao-produtos1">
+                    <img src="assets/image/secao-produtos-1.jpg" alt="Bolo sendo recheado com doce de leite">
+                </div>
+            </article>
+    
+            <article class="bloco-container">
+    
+                <div class="bloco-divisor">
+                    <h3>Fazer Compras</h3>
+                </div>
+    
+                <div class="img-produtos">
+                    <h2>Bolo Floresta Branca e muitos mais</h2>
+                    <p>Compre tudo com 25% de desconto</p>
+                    <a href="#" class="btn">Compre Agora</a>    
+                </div>
+    
+                <div class="text-produtos">
+                        Donec enim augue, mollis sed semper id, consequat vitae est. Phasellus ullamcorper leo magna, id egestas eros viverra sit amet. Fusce a eros quis enim consequat semper in in ex. Vivamus dapibus feugiat lobortis. Sed ornare lectus eget urna aliquam, eget fermentum metus posuere. Fusce ac dolor vehicula, ultrices dolor at, imperdiet massa. Mauris semper velit sit amet magna varius, non tincidunt mi vehicula. Proin imperdiet ligula tortor, vitae pretium erat porta nec. Sed tempus id lorem eget finibus. Aenean egestas vestibulum mi et porttitor. Fusce id ultricies elit. Sed fringilla porttitor nunc sit amet scelerisque.Suspendisse ultrices quam non ex faucibus.
+                </div>
+                
+                <div class="bloco-divisor">
+                    <h3>Comparar Produtos</h3>
+                    <p>Ordenar por:</p>
+    
+                    <select id="categoria">
+                        <option selected disabled value="">Predefinido</option>
+                        <option value="nome">Nome (A - Z)</option>
+                        <option value="preco">Preço (Menor > Maior)</option>
+                        <option value="recente">Recentes</option>
+                    </select>
+                </div>
+
+                <article class="cards">
+                
+                    <div class="card-thumb">
+    
+                        <div class="card">
+                            <div class="produto-img"><img src="" /></div>
+                            <div class="classificacao">
+                                <i class="icon-star qualidade"></i><i class="icon-star qualidade"></i><i class="icon-star qualidade"></i><i class="icon-star qualidade"></i><i class="icon-star"></i>
+                            </div>
+                            <div class="info-produto">
+                                <div class="produto-name">--</div>
+                                <div class="produto-price">R$--</div>
+                                <a href="" class="btn">Comprar</a> 
+                            </div>
+                        </div>  
+                    </div>
+                </article>
+                        
+                    <div class="bloco-divisor pag">
+                        <h3>Mostrando 6 a 6 de 12 (2 páginas)</h3>
+                        <div class="button-navigation">
+                            <a href="#" id="one" class="btn active">1</a>
+                            <a href="produtos2.html" id="two" class="btn">2</a>
+                            <a href="produtos2.html" id="next" class="btn">&gt;</a>
+                        </div>
+                    </div>
+
+                    
+            </article>
+  
+
+            <div class="produto-msg">produto adicionado com sucesso!</div>
+
+        </section>
+
+        <!-- INICIA TESTE -->
+
+        <div class="modal">
+            
+            <div class="cart-modal">
+
+                <div class="info-produto-open">
+                    <div class="produto-img-open"><img src="" /></div>
+    
+                    <div class="produto-name-open">--</div>
+                    <div class="produto-price-open">R$--</div>
+                    <div class="produto-desc-open">--</div>
+                </div>
+    
+                <div class="info-pedido-open">
+                    <div onclick="closeModal()" class="info-pedido-close">X</div>
+                    <h3>Pedidos especiais?</h3>
+                    <span class="testespecial">+</span> <span>Adicione aqui. Faremos nosso melhor para atendê-lo(a).</span>
+    
+                    <textarea placeholder="Quais são os seus pedidos?"></textarea>
+                    <div class="txt-pequeno"><p>* Custos adicionais podem ser adicionados</p></div>
+    
+                    <div class="quantidade">
+
+                        <h4>Quantidade</h4>
+                        <div class="btn-qtd">
+                            <button class="produtoInfo-qtmenos">-</button>
+                            <div class="produto-qt">1</div>
+                            <button class="produtoInfo-qtmais">+</button>
+                        </div>
+                    </div>
+
+    
+                    <button class="btn produtoInfo-addButton">+ adicionar ao meu carrinho</button>
+                </div>
+            </div>  
+        </div>
+
+        <div class="produto-msg">produto adicionado com sucesso!</div>
+
+        <!-- TERMINA TESTE -->
+
+    </main>
+
+    <div onclick="subirTela()" class="scrollButton"><i class="icon-arrow-up"></i></div>
+
+    <footer class="footer">
+        Copyright © 2021 - Jorge Guedes
+    </footer>
+
+    <script src="js/produtos.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
