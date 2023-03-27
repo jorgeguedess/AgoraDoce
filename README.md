@@ -1,3 +1,3 @@
 # AgoraDoce
 :cake: First project working in with in technologs: HTML, CSS e JS
-https://agoradoce.netlify.app/index.html
+https://agoradoce.netlify.app/
